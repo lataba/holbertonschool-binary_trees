@@ -29,4 +29,4 @@
 * **12.** []()
 
 
-# By Nicolás Fernández and Laura Ballesté as part of the [Holberton Uruguay](https://holbertonschool.uy/) study program.
+### By Felipe Pereira and Laura Ballesté as part of the [Holberton Uruguay](https://holbertonschool.uy/) study program.
