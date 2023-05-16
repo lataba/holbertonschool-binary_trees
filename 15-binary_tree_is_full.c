@@ -6,7 +6,7 @@
  * Return: 0 on fail
  */
 
-size_t binary_tree_is_full(const binary_tree_t *tree)
+int binary_tree_is_full(const binary_tree_t *tree)
 {
 	size_t left = 0, right = 0;
 
@@ -19,10 +19,10 @@ size_t binary_tree_is_full(const binary_tree_t *tree)
 	if ((tree->left != NULL) && (tree->right != NULL))
 	{
 		left = binary_tree_is_full(tree->left);
-		rigth = binary_tree_is full(tree->right);
+		right = binary_tree_is_full(tree->right);
 	}
 
-	if (left == 1 && rigth == 1)
+	if (left == 1 && right == 1)
 		return (1);
 
 	return (0);
